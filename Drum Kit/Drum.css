@@ -1,0 +1,58 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    width: 100vW;
+    height: 100vh;
+    background-color: #D0BFFF;
+}
+h1{
+    width: 100%;
+    height: 30%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 4rem;
+    color: azure;
+    text-shadow: 1px 3px 3px #5B0888;
+}
+.maindrums{
+    width: 100%;
+    height: 50%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.drum{
+    width: 10%;
+    height: 40%;
+    transition: transform 0.2s, background-color 0.2s;
+    border: 5px solid #5B0888;
+    border-radius: 20px;
+}
+#drum1,#drum2,#drum3,#drum4, #drum5, #drum6,#drum7{
+    background-image: url('drum2.jpeg');
+    background-size: cover;
+    background-repeat: no-repeat; 
+    background-position: center center; 
+    cursor: pointer;
+    
+}
+
+#drum1:hover,
+#drum2:hover,
+#drum3:hover,
+#drum4:hover,
+#drum5:hover,
+#drum6:hover,
+#drum7:hover{
+  background-color: #555; 
+  transform: scale(1.2); 
+}
+ 
+
+
+
+
